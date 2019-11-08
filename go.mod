@@ -1,4 +1,4 @@
-module github.com/getkin/kin-openapi
+module github.com/calmisland/go-openapi
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
