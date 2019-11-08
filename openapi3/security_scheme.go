@@ -40,6 +40,14 @@ func NewJWTSecurityScheme() *SecurityScheme {
 	}
 }
 
+func NewCITSecurityScheme() *SecurityScheme {
+	return &SecurityScheme{
+		Type:         "http",
+		Scheme:       "bearer",
+		BearerFormat: "CIT",
+	}
+}
+
 func (ss *SecurityScheme) MarshalJSON() ([]byte, error) {
 	return jsoninfo.MarshalStrictStruct(ss)
 }
