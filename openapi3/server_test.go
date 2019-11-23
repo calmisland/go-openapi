@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/calmisland/go-openapi/openapi3"
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 func TestServerParamNames(t *testing.T) {

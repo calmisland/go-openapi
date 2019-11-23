@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/calmisland/go-openapi/openapi3"
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 const addr = "localhost:7965"

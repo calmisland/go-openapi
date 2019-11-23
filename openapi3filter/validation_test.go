@@ -16,7 +16,7 @@ import (
 
 	"github.com/calmisland/go-openapi/openapi3"
 	"github.com/calmisland/go-openapi/openapi3filter"
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 type ExampleRequest struct {

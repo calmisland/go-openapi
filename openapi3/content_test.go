@@ -3,7 +3,7 @@ package openapi3
 import (
 	"testing"
 
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 func TestContent_Get(t *testing.T) {

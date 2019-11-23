@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/calmisland/go-openapi/openapi3gen"
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 type CyclicType0 struct {

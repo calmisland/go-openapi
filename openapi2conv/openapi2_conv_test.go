@@ -7,7 +7,7 @@ import (
 	"github.com/calmisland/go-openapi/openapi2"
 	"github.com/calmisland/go-openapi/openapi2conv"
 	"github.com/calmisland/go-openapi/openapi3"
-	"github.com/stretchr/testify/require"
+	"github.com/calmisland/go-testify/require"
 )
 
 func TestConvOpenAPIV3ToV2(t *testing.T) {
