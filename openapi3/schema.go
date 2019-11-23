@@ -487,7 +487,6 @@ func (schema *Schema) validate(c context.Context, stack []*Schema) (err error) {
 
 	schemaType := schema.Type
 	switch schemaType {
-	case "":
 	case "boolean":
 	case "number":
 		if format := schema.Format; len(format) > 0 {
